@@ -1,62 +1,79 @@
+/*{
+    border: 2px red solid;
+}*/
+
 body {
-    background-color: bisque;
+    background-color: #F5EFE7;
     font-family: 'Courier New', Courier, monospace;
     border-style: solid;
-    border-color: dimgrey;
+    border-color: black;
+    color: #213555;
+    padding:10px;
+    font-size: 25px;
 }
 
-.heading .title {
+.heading{
+    display: inline-block;
+    width: 500px;
+    height: 908px;
+    vertical-align: top;
+    border: 7px #213555 solid;
+    margin: 5px;
+    padding: 10px;
+    background-color: #D8C4B6;
+
+
+}
+
+.heading img.banner{
+    width: 450px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 70px;;
+}
+.heading .title{
     text-align: center;
-    font-weight: bold;
-    font-size: 50px;
-    color: dimgray
+    font-size: 45px;
+    margin: 10px;
+    margin-bottom: 40px;
 }
-.banner{
-    width: 1883px;
-    height: 250px;
+
+.heading p{
+    color: #4F709C;
+    padding: 5 10px;
+    margin: 25px 15px;
+}
+
+.about{   
+    text-align: center;
 
 }
+
 
 .recipe-card{
-    color:dimgray;
-    font-size: 25px;
-}
-
-.recipe-title{
-    text-align: left;
-}
-
-.recipe-card li{
-    text-align: left;
-}
- .center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
-    height: 250px;
-}
-
-.heading .title-image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 250%;
-    width: 25%;
+    display: inline-block;
+    width: 1270px;
+    border: 7px #213555 solid;
+    margin: 5px;
+    padding: 5px;
+    background-color: #D8C4B6;
 
 }
-.content h2, .content p, .content ul, .content ol{
-    color: dimgray;
-
+.recipe-card .recipe-title{
+    text-align: center;
+    font-size: 45px;
 }
 
-.content h2{
-    font-size: 30px;
-    font-weight: bold;
+.recipes{
+    border: 7px #213555 solid;
+    margin: 5px;
+    background-color: #D8C4B6;
+    text-align: center;
 }
 
-.content p, .content ul, .content ol{
-    font-size: 25px;
-
+.recipes img{
+    width: 200px;
+    height: auto;
 
 }
